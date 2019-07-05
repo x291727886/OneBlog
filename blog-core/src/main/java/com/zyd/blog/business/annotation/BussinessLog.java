@@ -34,4 +34,5 @@ public @interface BussinessLog {
      */
     boolean save() default true;
 
+    String name() default "";
 }
